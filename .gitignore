@@ -1,0 +1,6 @@
+_generated/
+_site/
+.pixi/
+pixi.lock
+/.quarto/
+**/*.quarto_ipynb

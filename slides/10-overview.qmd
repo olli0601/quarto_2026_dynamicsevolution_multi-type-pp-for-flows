@@ -1,0 +1,5 @@
+# Overview
+
+- A Quarto + reveal.js repository scaffolded for a talk.
+- Slides are sourced from files in `slides/`.
+- Numbered filenames control horizontal ordering.

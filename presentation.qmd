@@ -1,0 +1,7 @@
+---
+title: "Dynamic Evolution: Multi-type Point Processes for Flows"
+subtitle: "Quarto + reveal.js presentation scaffold"
+author: "Project team"
+---
+
+{{< include _generated/slides.qmd >}}

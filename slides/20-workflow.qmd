@@ -1,0 +1,5 @@
+# Workflow
+
+1. Edit slide fragments inside `slides/`.
+2. Render with `pixi run render`.
+3. Preview locally with `pixi run preview`.

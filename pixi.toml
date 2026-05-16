@@ -1,0 +1,14 @@
+[workspace]
+name = "dynamic-evolution-revealjs"
+channels = ["conda-forge"]
+platforms = ["linux-64", "linux-aarch64", "osx-64", "osx-arm64", "win-64"]
+requires-pixi = ">=0.40"
+
+[dependencies]
+python = ">=3.12,<3.13"
+quarto = ">=1.9.37,<2"
+
+[tasks]
+build-slides = { cmd = "python scripts/build_slides.py", description = "Assemble the presentation from the slides/ directory" }
+render = { cmd = "quarto render presentation.qmd", depends-on = ["build-slides"], description = "Render the reveal.js presentation" }
+preview = { cmd = "quarto preview presentation.qmd --no-browser", depends-on = ["build-slides"], description = "Preview the presentation locally" }
