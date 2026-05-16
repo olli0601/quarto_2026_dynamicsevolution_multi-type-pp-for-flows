@@ -4,7 +4,7 @@ project:
   render:
     - presentation.qmd
   pre-render:
-    - python3 scripts/build_slides.py
+    - python scripts/build_slides.py
 
 format:
   revealjs:

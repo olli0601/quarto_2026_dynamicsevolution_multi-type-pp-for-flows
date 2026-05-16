@@ -1,4 +1,4 @@
-# Dynamic Evolution reveal.js slides
+# Dynamic Evolution: Multi-type Point Processes for Flows
 
 This repository is set up as a Quarto + reveal.js presentation, with content organized using the same file-structure idea as [`tidy-revealjs`](https://github.com/julie-ng/tidy-revealjs#slides-via-file-structure).
 
