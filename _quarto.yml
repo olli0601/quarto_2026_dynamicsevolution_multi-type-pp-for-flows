@@ -1,0 +1,15 @@
+project:
+  type: default
+  output-dir: _site
+  render:
+    - presentation.qmd
+  pre-render:
+    - python3 scripts/build_slides.py
+
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    controls-layout: bottom-right
+    navigation-mode: vertical
+    incremental: true
