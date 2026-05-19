@@ -1,0 +1,35 @@
+# Poststratification by high-dimensional features
+
+
+::: {style="font-size:1rem;"}
+
+::: {.fragment}
+- High-dim feature set
+
+| Symbol | Meaning |
+|---|---|
+| $f_1$ | Marriage status (unmarried, married, after 1st marriage) |
+| $f_2$ | Environment (agrarian, trading, fishing) |
+| $f_3$ | Sexual risk behaviour (age-adjusted lifetime partners) |
+| $f_4$ | Socio-economic status of household |
+| ... |
+| ... |
+:::
+
+<div style="margin-top:3em;"></div>
+
+::: {.fragment}
+- Poststratification:
+
+<div style="font-size:1.5rem;">
+$$
+\mathbb{E}(z_{fg}) = \sum_{i,j} p( c_{ij} = 1 | \text{data} ) \: \mathbb{1}\{i \in f\} \: \mathbb{1}\{j \in g\} \: \zeta^{-1}_f \: \zeta^{-1}_g
+$$
+</div>
+:::
+
+::: {.fragment}
+- Iteratively include features with conditional mutual information
+:::
+
+:::

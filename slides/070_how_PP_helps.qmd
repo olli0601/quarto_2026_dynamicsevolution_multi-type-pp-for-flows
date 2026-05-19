@@ -1,0 +1,7 @@
+# How PP helps
+
+![](images/slide_how_this_helps/Bu-figure-2.png){width="100%"}
+
+::: {style="font-size:0.62rem; color:#aaa;"}
+[Figure 2 in Bu et al. Biometrics 2024](https://doi.org/10.1093/biomtc/ujad015)
+:::

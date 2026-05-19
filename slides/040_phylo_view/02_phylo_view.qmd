@@ -1,0 +1,90 @@
+# Phylo view
+
+::: {.columns}
+::: {.column width="49%"}
+
+```{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 6
+#| out-width: 100%
+library(ape)
+library(ggtree)
+library(ggplot2)
+
+set.seed(42)
+tree <- rtree(80)
+
+# Pairwise tip distances; tips whose min distance to any other tip is small
+d         <- cophenetic(tree)
+min_dist  <- apply(d, 1, function(x) min(x[x > 0]))
+threshold <- quantile(min_dist, 0.10)
+
+tip_data <- data.frame(
+  label = names(min_dist),
+  group = ifelse(min_dist <= threshold, "close tip pairs", "other tips/nodes"),
+  stringsAsFactors = FALSE
+)
+
+ggtree(tree, color = "grey50", size = 0.5) %<+% tip_data +
+  geom_nodepoint(aes(color = "other tips/nodes"), size = 1.5, alpha = 0.8) +
+  geom_tippoint(aes(color = group), size = 3) +
+  scale_color_manual(
+    name   = NULL,
+    values = c("close tip pairs" = "#f75323", "other tips/nodes" = "grey50"),
+    guide  = guide_legend(override.aes = list(size = 4))
+  ) +
+  theme_tree() +
+  theme(
+    plot.background   = element_rect(fill = "#101f27", color = NA),
+    panel.background  = element_rect(fill = "#101f27", color = NA),
+    legend.background = element_rect(fill = "#101f27", color = NA),
+    legend.key        = element_rect(fill = "#101f27", color = NA),
+    legend.text       = element_text(color = "white", size = 10),
+    legend.position   = "bottom"
+  )
+```
+
+:::
+::: {.column width="49%"}
+::: {style="font-size:1rem;"}
+
+::: {.fragment}
+- Let $x_{ij}$ ``mark'' evidence for transmission from $i$ to $j$.  
+:::
+
+::: {.fragment}
+- Marks can be: 
+
+  - phylogenetic or genetic distance\
+    [Poon et al. VE 2016](https://academic.oup.com/ve/article/2/2/vew031/2742100), 
+  - genetic distance and time elapsed\
+    [Blenkinsop et al. SMMR 2025](https://journals.sagepub.com/doi/full/10.1177/09622802241309750), 
+  - deep-sequence linkage and direction scores\
+    [Wymant et al. MBE 2018](https://academic.oup.com/mbe/article/35/3/719/4653772?guestAccessKey=), 
+  - using serohistory\
+    [Ratmann et al. STM 2016](https://www.science.org/doi/abs/10.1126/scitranslmed.aad1863), 
+  - using incidence assay\
+    [Fisher et al. AIDS 2010](https://journals.lww.com/aidsonline/abstract/2010/07170/determinants_of_hiv_1_transmission_in_men_who_have.15.aspx), 
+  - ...
+:::
+
+::: {.fragment}
+- Consider high confidence pairs above $\eta > 0$ 
+<div style="font-size:1.5rem;">
+$$
+ \mathbb{1}\{ x_{ij} > \eta \}
+$$
+</div>
+
+- Count
+<div style="font-size:1.5rem;">
+$$
+n_{ab} = \sum_{ij} \mathbb{1}\{ x_{ij} > \eta \} \mathbb{1}\{i \in a\} \mathbb{1}\{ j \in b \}
+$$
+</div>
+:::
+
+:::
+:::
+:::

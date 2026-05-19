@@ -1,0 +1,18 @@
+# Why flows?
+
+::: {.columns}
+::: {.column width="29%"}
+![](images/slide_why_flows/COVID-19%20Age%20Groups%20Resurgence.jpeg){width="100%" style="opacity:0.10;"}
+
+::: {style="font-size:0.62rem; color:#aaa; opacity:0.10;"}
+[Monod et al Science 2021](https://www.science.org/doi/10.1126/science.abe8372)
+:::
+:::
+::: {.column width="69%"}
+![](images/slide_why_flows/HIV-deaths-2023){width="100%"}
+
+::: {style="font-size:0.62rem; color:#aaa;"}
+[Our World in Data](https://ourworldindata.org/grapher/number-of-deaths-from-hivaids?time=earliest..2023)
+:::
+:::
+:::

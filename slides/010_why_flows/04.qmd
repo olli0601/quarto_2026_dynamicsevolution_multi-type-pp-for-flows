@@ -1,0 +1,21 @@
+# Why flows?
+
+::: {.columns}
+::: {.column width="49%"}
+![](images/slide_why_flows/HIV-deaths-2023){width="100%"}
+
+::: {style="font-size:0.62rem; color:#aaa;"}
+[Our World in Data](https://ourworldindata.org/grapher/number-of-deaths-from-hivaids?time=earliest..2023)
+
+:::
+:::
+::: {.column width="49%"}
+![](images/slide_why_flows/Monod_1.png){width="100%"}
+
+![](images/slide_why_flows/Monod_2.png){width="75%"}
+
+::: {style="font-size:0.62rem; color:#aaa;"}
+[Monod et al Nature Microbiology 2023](https://www.nature.com/articles/s41564-023-01530-8)
+:::
+:::
+:::

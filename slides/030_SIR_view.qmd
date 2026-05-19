@@ -1,0 +1,18 @@
+# SIR view
+
+::: {style="font-size:1rem;"}
+
+::: {.fragment}
+- In SIR model, the flows are:
+<div style="font-size:1.5rem;">
+$$
+z_{ab}[t_1,t_2] = \int_{t_1}^{t_2} I_a(s) c_{ab}(s) \frac{S_b(s)}{N_b} \beta \: ds
+$$
+</div>
+:::
+
+::: {.fragment}
+- Flows are time-specific.
+:::
+
+:::

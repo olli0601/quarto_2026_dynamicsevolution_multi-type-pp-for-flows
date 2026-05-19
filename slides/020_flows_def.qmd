@@ -1,0 +1,41 @@
+# Transmission flows defined
+
+::: {style="font-size:1rem;"}
+
+::: {.fragment}
+Transmission flows at population-level:
+
+- Let  $i,j \in \text{Pop}$ denote individuals, $a,b \in \text{A}$ groups.
+- Then
+<div style="font-size:1.5rem;">
+$$\begin{align*}
+  z_{ij} &\in \{0,1\} \\
+  z_{ab} &= \textstyle\sum_{i,j} \mathbb{1}\{ z_{ij}=1 \} \: \mathbb{1}\{i \in a\} \: \mathbb{1}\{j \in b\} \\
+  \pi_{a,b} &= z_{ab}/z^{+}, \quad z^{+} = \textstyle\sum_{a,b} z_{ab}
+\end{align*}$$
+</div>
+:::
+
+::: {.fragment}
+Source profile for $b$ recipients (backwards profile):
+
+- Fix $b$
+<div style="font-size:1.5rem;">
+$$
+\delta^b_a = \pi_{ab} / \pi_{.b}, \quad \pi_{.b} = \sum_a \pi_{ab}
+$$
+</div>
+:::
+
+::: {.fragment}
+Next generation profile for $a$ sources (forwards profile):
+
+- Fix $a$
+<div style="font-size:1.5rem;">
+$$
+\omega^a_b = \pi_{ab} / \pi_{a.}, \quad \pi_{a.} = \sum_b \pi_{ab}
+$$
+</div>
+:::
+
+:::

@@ -1,0 +1,36 @@
+# Thanks
+
+::: {.columns}
+::: {.column width="49%"}
+::: {style="font-size:0.62rem; color:#aaa;"}
+
+![](images/slide_thanks/Alexandra_Blenkinsop_No10.png){width="100%"}
+
+[Alexandra Blenkinsop](https://scholar.google.com/citations?user=gZGsE7MAAAAJ&hl=en)
+
+Ronald M. Galiwango, Robert Ssekubugu, Edward N. Kankaka Fan Bu, Andrea Brizzi, Lucie Abeler-Dörner, Christophe Fraser, Michael A. Martin, Melodie Monod, Gertrude Nakigozi, Fred Nalugoda, Oliver Laeyendecker, Haydon Leung, Godfrey Kigozi, Steven J Reynolds, Victor Ssempijja, Xiaoyue Xi, Larry W. Chang, Kate Grabowski
+
+:::
+:::
+
+::: {.column width="49%"}
+![](images/ML%20GHN%20Logo%20White.png){width="100%"}
+
+<div style="margin-top:1em;"></div>
+
+![](images/slide_thanks/Pangea_Map.png){width="100%"}
+
+<div style="margin-top:1em;"></div>
+
+![](images/slide_thanks/Bill_and_Melinda_Gates_Foundation_Logo.png){height="50px"}
+![](images/slide_thanks/NIH_Logo.png){height="50px"}
+![](images/slide_thanks/epsrc_logo.png){height="50px"}
+
+:::
+:::
+
+
+
+
+
+        

@@ -1,0 +1,12 @@
+# Rakai Community Cohort Study
+
+::: {.columns}
+::: {.column width="49%"}
+![](images/slide_results/maps_africa_rakai_lines_fishing_inland_trading.pdf.png){width="100%"}
+
+:::
+::: {.column width="49%"}
+![](images/slide_results/figure1_flowchart_inclusions_R6-R19.pdf.png){width="100%"}
+
+:::
+:::

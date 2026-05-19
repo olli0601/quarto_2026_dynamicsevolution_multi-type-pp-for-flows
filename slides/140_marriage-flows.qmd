@@ -1,0 +1,3 @@
+# Transmission flows by partnership status
+
+![](images/slide_results/transmission_flows_by_sex_comm_age_marriage_status_hhstrata_relflows_reclassifymarried_3panel_A.png){width="100%"}

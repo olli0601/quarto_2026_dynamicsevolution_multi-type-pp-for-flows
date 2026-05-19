@@ -1,0 +1,51 @@
+# Phylo view
+
+::: {.columns}
+::: {.column width="49%"}
+
+```{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 6
+#| out-width: 100%
+library(ape)
+library(ggtree)
+library(ggplot2)
+
+set.seed(42)
+tree <- rtree(80)
+
+# Pairwise tip distances; tips whose min distance to any other tip is small
+d         <- cophenetic(tree)
+min_dist  <- apply(d, 1, function(x) min(x[x > 0]))
+threshold <- quantile(min_dist, 0.10)
+
+tip_data <- data.frame(
+  label = names(min_dist),
+  group = ifelse(min_dist <= threshold, "close tip pairs", "other tips/nodes"),
+  stringsAsFactors = FALSE
+)
+
+ggtree(tree, color = "grey50", size = 0.5) %<+% tip_data +
+  geom_nodepoint(aes(color = "other tips/nodes"), size = 1.5, alpha = 0.8) +
+  geom_tippoint(aes(color = group), size = 3) +
+  scale_color_manual(
+    name   = NULL,
+    values = c("close tip pairs" = "#f75323", "other tips/nodes" = "grey50"),
+    guide  = guide_legend(override.aes = list(size = 4))
+  ) +
+  theme_tree() +
+  theme(
+    plot.background   = element_rect(fill = "#101f27", color = NA),
+    panel.background  = element_rect(fill = "#101f27", color = NA),
+    legend.background = element_rect(fill = "#101f27", color = NA),
+    legend.key        = element_rect(fill = "#101f27", color = NA),
+    legend.text       = element_text(color = "white", size = 10),
+    legend.position   = "bottom"
+  )
+```
+
+:::
+::: {.column width="49%"}
+:::
+:::

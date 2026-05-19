@@ -1,0 +1,38 @@
+# Phylo view
+
+::: {.columns}
+::: {.column width="49%"}
+::: {style="font-size:1rem;"}
+
+Pros:
+
+- mathematically low-hanging fruit to consider putative transmission pairs
+- can handle $> 100,000$ taxa
+- easy to adjust for differential sampling
+$$\begin{align*}
+  z_{ab} &\sim \text{Poisson}\big( \lambda_{ab} \big)\\
+  n_{ab} &\sim \text{Binom}\big( z_{ab}, \zeta_a\zeta_b \big)\\
+  \Rightarrow&\\
+  n_{ab} &\sim \text{Poisson}\big( \lambda_{ab} \zeta_a\zeta_b \big)
+\end{align*}
+$$
+- standard regression and regularisation tools available
+$$
+\log \lambda_{ab} = \lambda_0 + \lambda^T_1 X_a + \lambda^T_2 X_b + \lambda^T_3 X_{ab}
+$$
+- standard inference tools available, Stan, numpyro
+
+
+:::
+:::
+::: {.column width="49%"}
+::: {style="font-size:1rem;"}
+
+Cons:
+
+- Discard a lot of data
+- Heuristic construction
+
+:::
+:::
+:::

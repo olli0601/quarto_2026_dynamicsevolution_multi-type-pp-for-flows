@@ -1,0 +1,7 @@
+# Why we dont want to count high-confidence pairs
+
+![](images/slide_not_count/Bu-figure-1.png){width="100%"}
+
+::: {style="font-size:0.62rem; color:#aaa;"}
+[Figure 1 in Bu et al. Biometrics 2024](https://doi.org/10.1093/biomtc/ujad015)
+:::

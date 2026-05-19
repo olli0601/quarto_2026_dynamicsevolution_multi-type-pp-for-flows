@@ -1,7 +1,19 @@
 ---
-title: "Dynamic Evolution: Multi-type Point Processes for Flows"
-subtitle: "Quarto + reveal.js presentation scaffold"
-author: "Project team"
+pagetitle: "Multi-type Point Processes to characterize infectious disease transmission across many covariates"
 ---
 
+::: {.presentation-title .no-incremental}
+
+# Multi-type Point Processes to characterize infectious disease transmission across many covariates
+
+- Oliver Ratmann, PhD\
+  Associate Professor in Statistics and Machine Learning for Public Good\
+  Imperial College London
+
+- Dynamics & Evolution 2026  
+  May 21, 2026
+
+:::
+
 {{< include _generated/slides.qmd >}}
+

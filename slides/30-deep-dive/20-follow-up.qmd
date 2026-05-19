@@ -1,4 +1,0 @@
-# Follow-up details
-
-- Additional files in the same folder become vertical slides.
-- Reveal.js up/down navigation exposes the stack.

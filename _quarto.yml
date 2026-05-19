@@ -3,13 +3,35 @@ project:
   output-dir: _site
   render:
     - presentation.qmd
+  resources:
+    - theme/newton/fonts/*
+    - images/*
   pre-render:
     - python scripts/build_slides.py
 
 format:
   revealjs:
     theme: default
+    css: theme/newton/styles.css
+    embed-resources: true
     slide-number: true
     controls-layout: bottom-right
     navigation-mode: vertical
-    incremental: true
+    incremental: false
+    html-math-method:
+      method: mathjax
+      url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+    include-in-header:
+      text: |
+        <script>
+        window.MathJax = {
+          loader: {load: ['[tex]/ams']},
+          tex: {
+            packages: {'[+]': ['ams']}
+          },
+          chtml: {
+            fontURL: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2'
+          }
+        };
+        </script>
+    footer: '<img src="images/ML%20GHN%20Logo%20White.png" style="height:24px;width:auto;align-self:flex-end;"><span> | </span><img class="footer-logo-imperial" src="images/Imperial%20College%20London%20Logo.png" style="height:6px;width:auto;align-self:flex-end;"><span> | Oliver Ratmann | Dynamics &amp; Evolution 2026</span>'

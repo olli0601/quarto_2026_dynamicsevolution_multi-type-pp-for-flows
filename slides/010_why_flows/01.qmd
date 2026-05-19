@@ -1,0 +1,13 @@
+# Why flows?
+
+::: {.columns}
+::: {.column width="79%"}
+![](images/slide_why_flows/COVID-19-Canada-deaths.png){width="100%"}
+
+::: {style="font-size:0.62rem; color:#aaa;"}
+[Health Infobase Canada](https://health-infobase.canada.ca/covid-19)
+:::
+:::
+::: {.column width="19%"}
+:::
+:::

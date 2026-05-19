@@ -1,0 +1,48 @@
+# Multi-type Point Process in a nutshell
+
+::: {.columns}
+::: {.column width="39%"}
+![](images/slide_not_count/Bu-figure-1a.png){width="100%"}
+
+:::
+::: {.column width="59%"}
+::: {style="font-size:1rem;"}
+
+::: {.fragment}
+- Notation:
+
+| Symbol | Meaning |
+|---|---|
+| $k=-1$ | transmission from $j$ to $i$ |
+| $k=0$ | no transmission |
+| $k=1$ | transmission from $i$ to $j$ |
+| $c_{ij} \in \{-1,0,1\}$ | unknown type of $(i,j)$ |
+| $x_{ij} \in [0,1] \times [0,1]$ | 2D mark of $(i,j)$ |
+| $s_{ij} \in S \times S$ | coordinates of $(i,j)$ (their ages) |
+:::
+
+<div style="margin-top:3em;"></div>
+
+::: {.fragment}
+- Log likelihood if the type is known, ie $c_{ij} = k$:
+
+<div style="font-size:1.5rem;">
+$$
+\begin{align*}
+  s_{ij} &\sim \text{PP}\big( \gamma \: f(s_{ij}) \big) \\
+  f(s_{ij}) &= \sum_k \: p_k \:  f_k(s_{ij})\\
+  \text{logit} \: x_{ij} &\sim \text{2D-Normal-cdf}\big( \mu_k, \sigma_k^2 \big) 
+\end{align*}
+$$
+</div>
+:::
+
+<div style="margin-top:3em;"></div>
+
+::: {.fragment}
+- Since type is unknown, use data augmentation for inference.
+:::
+
+:::
+:::
+:::

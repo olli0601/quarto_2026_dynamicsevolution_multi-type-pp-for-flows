@@ -1,4 +1,0 @@
-# Model framing
-
-- Keep one idea per file to make reordering easy.
-- The first file in a folder becomes the stack's top slide.

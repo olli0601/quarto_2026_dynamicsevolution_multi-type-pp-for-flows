@@ -1,0 +1,7 @@
+[
+    {
+        "key": "cmd+shift+enter",
+        "command": "workbench.action.tasks.build",
+        "when": "editorTextFocus && resourceExtname == .qmd"
+    }
+]

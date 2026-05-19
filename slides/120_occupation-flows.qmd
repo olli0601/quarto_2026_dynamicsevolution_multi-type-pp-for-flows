@@ -1,0 +1,3 @@
+# HIV Transmission by occupation
+
+![](images/slide_results/transmission_flows_commSRC_occ_src_rec_rel_MF_panelplot_A.png){width="100%"}

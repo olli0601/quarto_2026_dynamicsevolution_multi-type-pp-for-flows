@@ -1,0 +1,3 @@
+# Forward feature selection
+
+![](images/slide_results/CMI_stepwise_perm_scores_wrelig_b200.png){width="100%"}

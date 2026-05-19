@@ -1,0 +1,19 @@
+# Why flows?
+
+::: {.columns}
+::: {.column width="49%"}
+![](images/slide_why_flows/COVID-19-Canada-deaths.png){width="100%"}
+
+::: {style="font-size:0.62rem; color:#aaa; opacity:0.10;"}
+
+[Health Infobase Canada](https://health-infobase.canada.ca/covid-19)
+:::
+:::
+::: {.column width="49%"}
+![](images/slide_why_flows/COVID-19%20Age%20Groups%20Resurgence.jpeg){width="100%"}
+
+::: {style="font-size:0.62rem; color:#aaa;"}
+[Monod et al Science 2021](https://www.science.org/doi/10.1126/science.abe8372)
+:::
+:::
+:::
