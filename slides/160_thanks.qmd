@@ -1,7 +1,7 @@
 # Thanks
 
 ::: {.columns}
-::: {.column width="49%"}
+::: {.column width="40%"}
 ::: {style="font-size:0.62rem; color:#aaa;"}
 
 ![](images/slide_thanks/Alexandra_Blenkinsop_No10.png){width="100%"}
@@ -13,7 +13,7 @@ Ronald M. Galiwango, Robert Ssekubugu, Edward N. Kankaka Fan Bu, Andrea Brizzi, 
 :::
 :::
 
-::: {.column width="49%"}
+::: {.column width="40%"}
 ![](images/ML%20GHN%20Logo%20White.png){width="100%"}
 
 <div style="margin-top:1em;"></div>
@@ -22,9 +22,9 @@ Ronald M. Galiwango, Robert Ssekubugu, Edward N. Kankaka Fan Bu, Andrea Brizzi, 
 
 <div style="margin-top:1em;"></div>
 
-![](images/slide_thanks/Bill_and_Melinda_Gates_Foundation_Logo.png){height="50px"}
-![](images/slide_thanks/NIH_Logo.png){height="50px"}
-![](images/slide_thanks/epsrc_logo.png){height="50px"}
+![](images/slide_thanks/Bill_and_Melinda_Gates_Foundation_Logo.png){height="40px"}
+![](images/slide_thanks/NIH_Logo.png){height="40px"}
+![](images/slide_thanks/epsrc_logo.png){height="40px"}
 
 :::
 :::
