@@ -1,1 +1,1 @@
-# Multi-type Point Process models{background-color="#f75323" .divider}
+# Multi-type Point Process models{background-color="#ffa700" .divider}

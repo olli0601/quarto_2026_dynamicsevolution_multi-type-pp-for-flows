@@ -1,1 +1,1 @@
-# Acknowledgments {background-color="#f75323" .divider}
+# Acknowledgments {background-color="#ffa700" .divider}

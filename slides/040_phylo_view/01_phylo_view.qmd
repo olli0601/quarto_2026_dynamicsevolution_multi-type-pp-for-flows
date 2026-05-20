@@ -13,7 +13,7 @@ library(ggtree)
 library(ggplot2)
 
 set.seed(42)
-tree <- rtree(80)
+tree <- rtree(120)
 
 # Pairwise tip distances; tips whose min distance to any other tip is small
 d         <- cophenetic(tree)
@@ -26,7 +26,7 @@ tip_data <- data.frame(
   stringsAsFactors = FALSE
 )
 
-ggtree(tree, color = "grey50", size = 0.5) %<+% tip_data +
+p <- ggtree(tree, color = "grey50", size = 0.5) %<+% tip_data +
   geom_nodepoint(aes(color = "other tips/nodes"), size = 1.5, alpha = 0.8) +
   geom_tippoint(aes(color = group), size = 3) +
   scale_color_manual(
