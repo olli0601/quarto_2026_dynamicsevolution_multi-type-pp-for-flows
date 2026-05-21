@@ -7,7 +7,11 @@
             "command": "pixi",
             "args": [
                 "run",
-                "render"
+                "quarto",
+                "render",
+                "presentation.qmd",
+                "--output",
+                "oliver_ratmann_multi-type-pp-for-high-dim-flows.html"
             ],
             "group": {
                 "kind": "build",

@@ -1,30 +1,10 @@
 # Dynamics Evolution: Multi-type Point Processes for Flows
 
-This repository is set up as a Quarto + reveal.js presentation, with content organized using the same file-structure idea as [`tidy-revealjs`](https://github.com/julie-ng/tidy-revealjs#slides-via-file-structure).
+Presentation given at [Dynamics & Evolution 2026](https://dynamicsevolution.org/event/7/), May 21 2026 
 
-## Slide structure
 
-Slides live in `/slides` and are read in alphabetical order.
 
-- Numbered files control the horizontal slide order.
-- Numbered folders create a reveal.js vertical stack.
-- The first file in a folder becomes the stack's top slide.
-- Remaining files in that folder become vertical follow-up slides.
-
-Example:
-
-```text
-slides/
-├── 10-overview.qmd
-├── 20-workflow.qmd
-└── 30-deep-dive/
-    ├── 10-model.qmd
-    └── 20-follow-up.qmd
-```
-
-Each slide fragment should start with a Markdown heading. The build script normalizes heading levels so that top-level files become horizontal slides and subfolder files become vertical slides.
-
-## Getting started
+## Make slide deck
 
 Install the project dependencies with Pixi:
 
@@ -50,4 +30,7 @@ Preview locally:
 pixi run preview
 ```
 
-The assembled presentation source is written to `/_generated/slides.qmd`, and the rendered site is written to `/_site/`.
+## Slide deck (html)
+
+The rendered site is written to `/_site/oliver_ratmann_presentation.html`.
+
