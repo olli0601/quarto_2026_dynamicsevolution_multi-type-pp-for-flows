@@ -35,7 +35,9 @@ pixi run preview
 
 The rendered site is written to `/_site/oliver_ratmann_multi-type-pp-for-high-dim-flows.html`.
 
-<a href="_site/oliver_ratmann_multi-type-pp-for-high-dim-flows.html" download>Download the HTML presentation</a>
+To view:
 
-After downloading, open the file in your web browser to view the slides offline.
+1. In the GitHub repo, navigate to [`_site/oliver_ratmann_multi-type-pp-for-high-dim-flows.html`](./_site/oliver_ratmann_multi-type-pp-for-high-dim-flows.html).
+2. Click the "Download" button (or click "Raw" and use your browser's Save As option).
+3. Open the downloaded file in your web browser to view the slides offline.
 
