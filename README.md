@@ -35,5 +35,7 @@ pixi run preview
 
 The rendered site is written to `/_site/oliver_ratmann_multi-type-pp-for-high-dim-flows.html`.
 
-<a href="_site/oliver_ratmann_multi-type-pp-for-high-dim-flows.html" target="_blank" rel="noopener noreferrer">Open the HTML presentation in a new browser window</a>
+<a href="_site/oliver_ratmann_multi-type-pp-for-high-dim-flows.html" download>Download the HTML presentation</a>
+
+After downloading, open the file in your web browser to view the slides offline.
 
