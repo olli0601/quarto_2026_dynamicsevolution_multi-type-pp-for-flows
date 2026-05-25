@@ -32,5 +32,8 @@ pixi run preview
 
 ## Slide deck (html)
 
-The rendered site is written to `/_site/oliver_ratmann_presentation.html`.
+
+The rendered site is written to `/_site/oliver_ratmann_multi-type-pp-for-high-dim-flows.html`.
+
+<a href="_site/oliver_ratmann_multi-type-pp-for-high-dim-flows.html" target="_blank" rel="noopener noreferrer">Open the HTML presentation in a new browser window</a>
 
